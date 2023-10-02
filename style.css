@@ -23,7 +23,7 @@
 
 #IDlampada {
     width: 100px;
-    /* transform: rotate(140deg); */
+    transform: rotate(140deg);
     border-radius: 50%;
 }
 
