@@ -5,8 +5,7 @@ const bg = document.getElementById("bg");
 const IDredor_lampada = document.getElementById("IDredor_lampada");
 const body = document.getElementById("#body");
 
-IDligar.addEventListener("click", ligar);
-IDdesligar.addEventListener("click", desligar)
+
 
 function ligar() {
     IDlampada.src = "img/acessa.png";
@@ -21,7 +20,7 @@ function ligar() {
     IDredor_lampada.style.backgroundColor = "rgba(255, 238, 0, 0.644)";
     IDredor_lampada.style.borderRadius = "50%";
     IDredor_lampada.style.boxShadow = "1px 1px 100px 150px rgba(255, 238, 0, 0.644)";
-    body.style.backgroundColor = "rgba(0, 0, 0, 0.623)"
+    body.style.backgroundColor = "rgba(0, 0, 0, 0.623)";
 }
 
 function desligar() {
@@ -40,3 +39,5 @@ function desligar() {
 }
 
 
+IDligar.addEventListener("click", ligar);
+IDdesligar.addEventListener("click", desligar)
