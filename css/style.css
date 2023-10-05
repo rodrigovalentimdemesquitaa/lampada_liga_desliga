@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========================= BG ========================= */
+
+#body {
+    background-color: rgb(0, 0, 0);
+}
+
+
+#bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+
+/* ========================= LAMPADA ========================= */
+
+#IDlampada {
+    width: 100px;
+    transform: rotate(140deg);
+    border-radius: 50%;
+}
+
+#IDredor_lampada {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 150px;
+}
+
+
+/* ========================= INTERROPTOR ========================= */
+
+#interroptor {
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    border: 8px solid rgb(121, 121, 121);
+}
+
+.btn {
+    background-color: rgb(224, 224, 224);
+    width: 60%;
+    height: 25%;
+    border: 0;
+    border-left: 2px solid rgb(121, 121, 121);
+    border-right: 2px solid rgb(121, 121, 121);
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(121, 121, 121);
+}
+
+#IDdesligar {
+   border-top: 2px solid rgb(121, 121, 121);
+   border-radius: 10px 10px 0 0;
+   color: red; 
+}
+
+#IDligar {
+    border-radius: 0 0 10px 10px;
+    border-bottom: 7px solid rgb(121, 121, 121);
+ }
